@@ -1,12 +1,12 @@
 import React from 'react';
 import Banner from '../Banner/Banner';
-import Marquee from '../Marquee/Marquee';
+import MarqueeSection from '../Marquee/MarqueeSection';
 
 const Home = () => {
     return (
         <div>
             <Banner></Banner>
-            <Marquee></Marquee>
+            <MarqueeSection></MarqueeSection>
         </div>
     );
 };
