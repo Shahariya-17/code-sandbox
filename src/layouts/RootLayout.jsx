@@ -2,12 +2,14 @@ import React from 'react';
 import { Outlet } from 'react-router';
 import Navbar from '../pages/Shared/Navbar/Navbar';
 import Banner from '../pages/Home/Banner/Banner';
+import Footer from '../pages/Shared/Footer/Footer';
 
 const RootLayout = () => {
     return (
         <div className='bg-black text-white'>
             <Navbar></Navbar>
             <Outlet></Outlet>
+            <Footer></Footer>
         </div>
     );
 };
