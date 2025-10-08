@@ -90,7 +90,7 @@ const Navbar = () => {
           </button>
         </Link>
         <Link>
-          <button className="btn btn-sm sm:btn-md bg-lime-400 hover:bg-lime-300 text-black transition">
+          <button className="btn btn-sm sm:btn-md hidden md:block bg-lime-400 hover:bg-lime-300 text-black transition">
             Try for free
           </button>
         </Link>
